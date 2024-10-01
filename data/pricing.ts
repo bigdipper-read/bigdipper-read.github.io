@@ -1,9 +1,9 @@
 export const pricing = [
     {
-        title: "Basic",
-        price: "$10",
-        features: ["Feature 1", "Feature 2", "Feature 3"],
-        description: "This is a basic plan for beginners.",
+        title: "Free",
+        price: "$0",
+        features: ["30 ID reads per day", "Limited support"],
+        description: "Try BigDipper API for free",
         fancy: false,
     },
     {

@@ -18,7 +18,7 @@ export default function Home() {
                             <div
                                 className="flex flex-row items-center justify-center gap-5 p-1 text-xs bg-card/60 backdrop-blur-lg rounded-md border border-border">
                                 <Badge className="font-semibold">New</Badge>
-                                <h5>Announce your new feature here</h5>
+                                <h5>ID Read API online!</h5>
                                 <Link href="/" className="flex flex-row items-center">
                                     View all features
                                     <ArrowRightIcon className="w-6 h-6 ml-2"/>
@@ -59,11 +59,11 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="max-w-4xl mx-auto mb-8">
+                    {/* <div className="max-w-4xl mx-auto mb-8">
                         <Image className="w-full" src="/dashboard-ui.png" alt="Dashboard ui design" priority
                                width={1200}
                                height={800}/>
-                    </div>
+                    </div> */}
                 </main>
             </div>
 
